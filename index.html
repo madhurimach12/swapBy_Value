@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+document.write("Pass by value");
+document.write("<br> ");
+  var num1 = 5;
+  var num2 = 9;
+  document.write("Before a = "+ num1 +" b = "+num2);
+  swap(num1,num2);
+  document.write("<br> ");
+  document.write("After ");
+  
+  document.write(" a = " +num1);
+  document.write(" b = " +num2);
+  function swap(a,b){
+    var temp;
+    temp=num1;
+    num1=num2;
+    num2=temp;
+  }
+ 
+</script>
+
+</body>
+</html>
